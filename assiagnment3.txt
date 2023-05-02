@@ -1,0 +1,125 @@
+1.Explain the term machine learning, and how does it work? Explain two machine learning
+applications in the business world. What are some of the ethical concerns that machine learning
+applications could raise?
+
+ans:
+  Machine learning defines how the machines are ging to train to predict future based on the previous data.Now a days, there are numorous applications
+  of machine learning, among them few are Spam Classification and language translation. Spam Classification is used to detect weather the given message 
+  is spam or not spam. The languge translation is the process of convertion of one language into another language. The major ethical concerns that machine 
+  learning applications could raises is Privacy and data protection and Job displacement and inequality.
+
+2. Describe the process of human learning:
+i. Under the supervision of experts
+
+ii. With the assistance of experts in an indirect manner
+
+iii. Self-education
+ans:
+    i. Under the supervision of experts:
+            Each and every concept will learned from some experts and apply that knowledge to real world case problems,which is direct manner.
+
+    ii. With the assistance of experts in an indirect manner:
+             All the concepts will be learned from experts which is not in direct manner.
+    iii. Self-education:
+             By excuting the actions and getting the consequences and advantages and learning from those practical experiances.
+
+3. Provide a few examples of various types of machine learning.
+ans:
+  Supervised Machine learning:
+       1.Spam Classification
+       2.Weather Prediction
+  Unsupervised Machine Learning:
+       1.Customer Segmentation
+       2.Product Segmentation
+  Reinforcement Learning:
+       1.Tesla Self Driving cars
+       2.Chat Bots
+
+4. Examine the various forms of machine learning.
+ans:
+	Supervised Machine learning:
+		 In supervised learning, the algorithm is trained on a labeled dataset, where the inputs are paired with corresponding outputs. 
+                 The goal is to learn a model that can accurately predict the output for new inputs.
+	Unsupervised Machine Learning:
+		In unsupervised learning, the algorithm is trained on an unlabeled dataset, where the goal is to discover patterns or structure in the data. 
+                Unsupervised learning can be used for tasks such as clustering, dimensionality reduction, and anomaly detection.
+	Reinforcement Learning:
+		 In reinforcement learning, the algorithm learns through trial and error, receiving feedback in the form of rewards or penalties for its actions. 
+                 The goal is to learn a policy that maximizes the cumulative reward over time.
+
+5. Can you explain what a well-posed learning problem is? Explain the main characteristics that must
+be present to identify a learning problem properly.
+ans: A well-posed leanign problem is defined as that the problem has unique solution. Having the sufficient information to solve the problem is a
+     well-posed learning. The main characteristics is the avialability of data, Evalution metrics and model genaralisation.
+
+6. Is machine learning capable of solving all problems? Give a detailed explanation of your answer.
+ans: 
+    machine Learning cannot solve all the problems, it only solves the problems where the human intervention is less and the problems where the
+    human intervention is more is very difficult to solve.
+
+7. What are the various methods and technologies for solving machine learning problems? Any two
+of them should be defined in detail.
+ans:
+  Python :
+      Most of the people use Python to solve the Machine Learning Problems due to its large libraries and its fuctionality.
+  Big Data:
+      It is also one of the major one because it can manage the large datasets efficiently.
+
+8. Can you explain the various forms of supervised learning? Explain each one with an example
+application.
+ans:
+  Regression:
+      If the dependent variable is a numerical one, then that is a regression task, which is used to predict the continous values.
+  Classification:
+       If the dependent variable is a Categorical one, then that is a classification task,which is used to classify the output.
+
+9. What is the difference between supervised and unsupervised learning? With a sample application
+in each region, explain the differences.
+ans:
+	Supervised Machine learning:
+		 In supervised learning, the algorithm is trained on a labeled dataset, where the inputs are paired with corresponding outputs. 
+                 The goal is to learn a model that can accurately predict the output for new inputs.
+		 Ex:Weather prediction, Stock Market Prediction, Spam Classification.
+	Unsupervised Machine Learning:
+		In unsupervised learning, the algorithm is trained on an unlabeled dataset, where the goal is to discover patterns or structure in the data. 
+                Unsupervised learning can be used for tasks such as clustering, dimensionality reduction, and anomaly detection.
+		Ex:Customer Segmentation, Product Segmentation.
+
+
+10. Describe the machine learning process in depth.
+
+a. Make brief notes on any two of the following:
+
+i.MATLAB is one of the most widely used programming languages.
+
+ii. Deep learning applications in healthcare
+ans: Deep Learning is a subset of machine learning which will be used in for image datasets and Text datasets etc.
+
+iii. Study of the market basket
+
+iv. Linear regression (simple) 
+ans: The main aim of the Linear regression is to make the best fit line by using the equation y=mx+c.
+
+
+11. Make a comparison between:-
+
+1. Generalization and abstraction
+	Generalisation:
+               It defines the process of predicting the outputs for newly unseen datasets.
+        Abstraction:
+	        Abstraction, on the other hand, refers to the process of simplifying complex 
+                systems by focusing on the most important and relevant aspects
+
+2. Learning that is guided and unsupervised
+	Learning that is guided:
+		Guided learning, also known as supervised learning, is a type of machine learning where the algorithm is trained on labeled data.
+	unsupervised:
+		Unsupervised learning, on the other hand, is a type of machine learning where the algorithm is trained on unlabeled data,
+                where the correct output is not known.
+3. Regression and classification 
+   	Regression:
+      		If the dependent variable is a numerical one, then that is a regression task, which is used to predict the continous values.
+  	Classification:
+       		If the dependent variable is a Categorical one, then that is a classification task,which is used to classify the output.
+
+  

@@ -1,0 +1,114 @@
+1. What are the 1. What are the key tasks that machine learning entails? What does data pre-processing imply?\
+ans:
+key tasks that machine learning entails:
+  1.Data Preprocessing
+  2.Data Validation
+  3.Data Transformation
+  4.Model Trainer
+  5.Model Evalution
+  6.Model Pusher
+data pre-processing imply:
+  1.Data Cleaning
+  2.Data Scaling
+  3.Data Normalisation
+  4.Data Transformation
+  5.Feature Extraction
+  6.Dimensionality Reduction
+
+2. Describe quantitative and qualitative data in depth. Make a distinction between the two.
+ans:
+  Quantitative Data:
+        This type of data is also known as numerial data.
+        1.Descrete Data
+        2.Continous Data
+   Qualitative Data:
+        This type of data is also known as categorical Data.
+        1.Nominal Data
+        2.Ordinal Data
+
+3. Create a basic data collection that includes some sample records. Have at least one attribute from
+each of the machine learning data types.
+ans:
+   Height    Weight     Diabetic_patient
+    5        34            Yes
+    4.3      45            No 
+    6        44            No
+    5.5      54            Yes
+
+4. What are the various causes of machine learning data issues? What are the ramifications?
+ans: 
+various causes of machine learning data issues:
+  1.outliers
+  2.incorrect format
+  3.null values
+  4.inconsistancy in data collection
+
+ramifications:
+due to machine learning, we have both advantages and dis-advantages
+  1.privay concerns
+  2.unemployment
+  3.decrimination
+
+
+5. Demonstrate various approaches to categorical data exploration with appropriate examples.
+ans:
+ We can use the countplots to visaulize how many values are present for each category.
+ we can perform the bivariate analysis with categorical data and the output variable.
+
+6. How would the learning activity be affected if certain variables have missing values? Having said
+that, what can be done about it?
+ans:
+ The missing vlaue will effect the performance of the model.
+ For example consider a regression problem statement where we use y=mx+c and assume m=0.5 and c=1 then if x=24 then,y=13 
+ if the value of x is missed, then assume a situation where missing values are filled with zero , then the value of y is 1.
+ In the above way the model tries to make wrong predictions.
+
+7. Describe the various methods for dealing with missing data values in depth.
+ans:
+  1. By using fillna()
+  2. Interpolation
+  3. simple Imputation
+
+8. What are the various data pre-processing techniques? Explain dimensionality reduction and
+function selection in a few words.
+ans:
+ data pre-processing techniques:
+   1.Data Cleaning
+   2.Data Scaling
+   3.Data Normalisation
+   4.Data Transformation
+   5.Feature Extraction
+   6.Dimensionality Reduction
+ dimensionality reduction:
+    dimensionality reduction is the process of reducing the Heigher dimension of Data into lower Dimensions by using PCA and t-SNE.
+ feature selection:
+    Feature Selection is the process of finding the optimal subset of features.
+
+9.
+i. What is the IQR? What criteria are used to assess it?
+ans:
+  The IQR is the inter quantile range, IQR = Q3 - Q1 ,where Q3 is Third Quantile and Q1 is the First Quantile.
+
+ii. Describe the various components of a box plot in detail? When will the lower whisker
+surpass the upper whisker in length? How can box plots be used to identify outliers?
+ans: 
+  The boxplot contains 
+     Minimum value: The smallest observation in the dataset.
+     Maximum value: The largest observation in the dataset.
+     Median (Q2): The middle value of the dataset.
+     Quartiles (Q1 and Q3): The 25th and 75th percentiles of the dataset, respectively. These divide the dataset into four equal parts.
+     Whiskers: The lines extending from the box that indicate the range of the data.
+
+10. Make a comparison between:
+
+1. Data with nominal and ordinal values
+ans: 
+  The nominal Data cannot be ordered, but ordinal data can be ordered.
+
+2. Histogram and box plot
+ans:
+  Histogram defines the distribution of the data, where the box plot defines the outliers present in the data.
+
+3. The average and median
+ans:
+  Average is the sum of observations divided by number of observation whereas the median is the middle value of the sorted list of numbers.

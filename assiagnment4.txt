@@ -1,0 +1,77 @@
+1. What are the key tasks involved in getting ready to work with machine learning modeling?
+ans:
+  1.Data ingestion
+  2.Data validation
+  3.Data transformation
+  4.Model training
+  5.Model evalution
+  6.Model Pushing
+
+2. What are the different forms of data used in machine learning? Give a specific example for each of
+them.
+ans:
+   Quantitative Data:
+        This type of data is also known as numerial data.
+        1.Descrete Data
+        2.Continous Data
+   Qualitative Data:
+        This type of data is also known as categorical Data.
+        1.Nominal Data
+        2.Ordinal Data
+
+3. Distinguish:
+
+1. Numeric vs. categorical attributes
+ans:
+ Numerical attributes consists of intergers or whole numbers whereas the categorical attributes contains the type of data as string or object.
+
+2. Feature selection vs. dimensionality reduction
+ans:
+  Feature Selection is the process of finding the optimal subset of features where as the dimensionality reduction is the process of reducing the
+  Heigher dimension of Data into lower Dimensions.
+
+4. Make quick notes on any two of the following:
+
+1. The histogram
+ans: The Histogram is a plotting technique which can be used to analyse the distribution of the data columns.
+
+2. Use a scatter plot
+ans: The Scatter Plot is used to analyse the data columns to find the linear relationships between different columns.
+
+3.PCA (Personal Computer Aid)
+
+5. Why is it necessary to investigate data? Is there a discrepancy in how qualitative and quantitative
+data are explored?
+ans: It is necessary to investigate data to maintain the well organised data to implement model on that data.
+     When you are going to implement the model make sure that the data should be cleaned and maintained correctly.
+
+6. What are the various histogram shapes? What exactly are ‘bins'?
+ans: 
+  The various histograms are shapes are the you can use the histogram without using kde=True and the another histogram is to make kde=True.
+  The bins defines how many data bars should be diplayed on the histogram.
+
+7. How do we deal with data outliers?
+ans: The outliers are handled in many ways,
+    1. Removing the Outliers
+    2. scaling the data
+    3. Log Transformtion
+    4. Box-cox transformation
+    5. Cube-Root Transformation.
+
+8. What are the various central inclination measures? Why does mean vary too much from median in
+certain data sets?
+ans:  
+    The Various central inclination measures are mean, median, mode.
+    If mean vary too much from median in certain data sets, Then there will an outlier in the dataset.
+
+9. Describe how a scatter plot can be used to investigate bivariate relationships. Is it possible to find
+outliers using a plot?
+ans: 
+  The scatter plot can be used to investigate bivariate relationships as it indicates with change in value of x, how the value of y is changing.
+  It defines the linear relationship between the two variables.
+  It is possible to find outliers using a plot, as the some sort of data will shown aside from rest of the data.
+
+10. Describe how cross-tabs can be used to figure out how two variables are related.
+ans:
+  Cross-tabulation, also known as contingency table analysis, is a statistical tool used to analyze the relationship between two categorical variables. 
+  The main objective of cross-tabs is to understand the frequency of occurrence of each combination of categories of the two variables
