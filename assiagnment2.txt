@@ -1,0 +1,78 @@
+1. What is the concept of human learning? Please give two 
+ans:
+ Based on the knowledge and the experianced gained by a person can perform the actions of next operations is called human learning.
+ Ex:
+    1. writing programs in python
+    2. eating food by children
+
+2. What different forms of human learning are there? Are there any machine learning equivalents?
+ans: There are three types of human learning
+  Learning through association 
+  Learning through consequences 
+  Learning through observation.
+
+3. What is machine learning, and how does it work? What are the key responsibilities of machine
+learning?
+ans:
+  The machine learning is the process of training a machine to learn the pattern in the given data to predict the future.
+  The key Resposibilities of Machine learning is to predict the future and analyse the output based on the previous data.
+
+4. Define the terms "penalty" and "reward" in the context of reinforcement learning.
+ans:
+  The terms "penalty" and "reward" are mainly used in reinforcement learning.
+  The Penalty will be given to the model if our model predicts wrong and the reward will be given to the model if our model predicts correct.
+
+5. Explain the term "learning as a search"?
+ans:
+  Learning can be seen as a search process in which a learner explores a space of possible solutions in order to find an optimal solution to 
+  a problem. The goal of the learner is to find a set of parameters or weights for the model that minimize the error or cost function. This 
+  search process can be seen as navigating a landscape of possible solutions, where each point represents a particular set of parameter values, 
+  and the height of the landscape represents the error or cost associated with those parameters.
+
+6. What are the various goals of machine learning? What is the relationship between these and
+human learning?
+ans:
+ The Goals of Machine learning is the applications of machine learning
+   1.regression
+   2.classification
+   3.clustering
+   4.anomoly detection
+   
+
+7. Illustrate the various elements of machine learning using a real-life illustration.
+ans:
+  1. data collection
+  2. data peprocessing
+  3. model training
+  4. model evalution
+  5. model pusher
+
+8. Provide an example of the abstraction method.
+ans:
+  An example of the abstraction method in machine learning is feature extraction. Feature extraction involves reducing the 
+  dimensionality of the input data by selecting or extracting a subset of relevant features. This allows the machine learning model 
+  to focus on the most important information in the data and improve its ability to learn and generalize.
+
+9. What is the concept of generalization? What function does it play in the machine learning
+process?
+ans:
+ If the Trained model is good to predict the outputs of the test dataset, it means if the model is good at predicting the data for training and the 
+ testing data then, it is said to be generalsation.
+ The generalised model contains good perfomance.
+
+10. What is classification, exactly? What are the main distinctions between classification and regression?
+ans:
+  If the model tries to classify the output, then it is said to be classification problem statement.
+  In the regression the model always tries to predict the continous values,
+  whereas the classification contains descrete data and tries to classify those classes.
+
+11. What is regression, and how does it work? Give an example of a real-world problem that was
+solved using regression.
+ans:
+ The main task of the regression is to find the best fit line to predict the output, the simple equation is y = m * x + c .
+ The Best example is Bike sharing demand prediction for regression.
+
+12. Describe the clustering mechanism in detail.
+ans:
+  In machine learning too, we often group examples as a first step to understand a subject (data set) in a machine learning system. 
+  Grouping unlabeled examples is called clustering. As the examples are unlabeled, clustering relies on unsupervised machine learning.
