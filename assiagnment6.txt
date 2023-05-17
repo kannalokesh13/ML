@@ -1,0 +1,87 @@
+1. In the sense of machine learning, what is a model? What is the best way to train a model?
+ans:
+  The model is an abstraction which contains all the trained parameters on the training dataset.
+  The best way to train the model is, first split the model into two parts one is training set and testing set,
+  then train the model on the training dataset by performing the gridsearchcv and use the test dataset for the 
+  evalution of the model.
+
+2. In the sense of machine learning, explain the "No Free Lunch" theorem.
+ans:
+ The "No free Lunch" theorem states that there is no algorithm that is going to work for all problems,
+ it defines, each problem is solved by the each type of solution.
+
+3. Describe the K-fold cross-validation mechanism in detail.
+ans:
+  The K-fold cross-validation is used to train the model on the entire dataset. It splts the dataset
+  into k sections and first section will be used for the testing and the remaining esctions wil be used for the 
+  training and at second iteration, the second section will be used for the testing and the remaining sections 
+  will be used for the trainng, Like above this will iterated at k times.
+
+4. Describe the bootstrap sampling method. What is the aim of it?
+ans: 
+  The boostrap sampling method divides the dataset into several parts and each part is given to each model to 
+  train and while prediction the new datapoint eill be passed to the all the points and the result of all the 
+  models will be averaged to give the final result.
+
+5. What is the significance of calculating the Kappa value for a classification model? Demonstrate
+how to measure the Kappa value of a classification model using a sample collection of results.
+ans:
+  The significance of calculating the Kappa value for a classification model is that it helps determine whether the model's 
+  performance is better than what would be expected by chance alone.
+ To measure the Kappa vlaue:
+    Po = (TP + TN) / Total
+    Pe = ((TP + FP) * (TP + FN) + (FN + TN) * (FP + TN)) / (Total * Total)
+
+    K = (Po - Pe) / (1 - Pe)
+
+6. Describe the model ensemble method. In machine learning, what part does it play?
+ans:
+ The model ensemble method in machine learning involves combining multiple individual models to create a stronger and more 
+ accurate predictive model. Instead of relying on a single model's predictions, ensemble methods leverage the diversity and 
+ collective wisdom of multiple models to improve overall performance.
+
+7. What is a descriptive model&#39;s main purpose? Give examples of real-world problems that
+descriptive models were used to solve.
+ans:
+  The main purpose of a descriptive model is to provide a summary or description of data, patterns, or relationships within a given context.
+  examples:
+   Customer Segmentation
+   Fraud Detection
+   sentiment anlysis
+
+8. Describe how to evaluate a linear regression model.
+ans:
+  To evalute the linear regression model, we can use r2_score or adjusted r2_score.
+
+9. Distinguish :
+
+1. Descriptive vs. predictive models:
+
+Descriptive models focus on summarizing and understanding the existing data without making predictions.
+They aim to provide insights and describe patterns or relationships in the data. Examples include customer
+segmentation, market basket analysis, or trend analysis.
+
+Predictive models, on the other hand, are designed to make predictions or forecasts based on the available data.
+These models use historical data to learn patterns and relationships and apply them to new, unseen data to make 
+predictions about future outcomes. Examples include regression models, decision trees, or neural networks.
+
+2. Underfitting vs. overfitting the model:
+
+Underfitting occurs when a model is too simple to capture the underlying patterns in the data. It results in a
+model that is not able to generalize well and performs poorly on both the training and testing data. Underfitting
+often occurs when the model is too constrained or when there is insufficient complexity to capture the relationships in the data.
+
+Overfitting happens when a model is too complex and captures noise or random fluctuations in the training data. It performs very 
+well on the training data but fails to generalize to new, unseen data. Overfitting occurs when the model learns the specific examples 
+or noise in the training data instead of learning the underlying patterns.
+
+3. Bootstrapping vs. cross-validation:
+
+Bootstrapping is a resampling technique that involves randomly sampling the dataset with replacement to create multiple bootstrap samples. 
+Each bootstrap sample is used to estimate model parameters, evaluate performance, or assess uncertainty. Bootstrapping is often used to obtain 
+robust estimates of model performance or parameter estimates by generating multiple samples from the original dataset.
+
+Cross-validation is a technique used to evaluate the performance of a predictive model by partitioning the data into subsets or folds. The model 
+is trained on a subset of the data (training set) and evaluated on the remaining subset (validation set or test set). This process is repeated multiple times, 
+each time using a different partition of the data. Cross-validation helps to assess how well the model generalizes to new, unseen data and helps in model selection
+or hyperparameter tuning.
