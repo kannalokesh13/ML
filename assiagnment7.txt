@@ -1,0 +1,110 @@
+1. What is the definition of a target function? In the sense of a real-life example, express the target
+function. How is a target function&#39;s fitness assessed?
+ans:
+In the context of machine learning and predictive modeling, the target function, also known as the objective 
+function or the model's goal, represents the relationship between the input variables (features) and the output 
+variable (target) that the model aims to learn from the available data. The target function maps the input features 
+to the predicted output.
+
+A real-life example of a target function can be predicting housing prices based on various features such as the 
+number of bedrooms, square footage, location, etc. The target function would take these input features and predict 
+the corresponding house price.
+
+2. What are predictive models, and how do they work? What are descriptive types, and how do you
+use them? Examples of both types of models should be provided. Distinguish between these two
+forms of models.
+ans:
+ The main purpose of a descriptive model is to provide a summary or description of data, patterns, or relationships within a given context.
+  examples:
+   Customer Segmentation
+   Fraud Detection
+   sentiment anlysis.
+Predictive models, on the other hand, are designed to make predictions or forecasts based on the available data.
+These models use historical data to learn patterns and relationships and apply them to new, unseen data to make 
+predictions about future outcomes. 
+examples:
+   regression models, 
+   decision trees, 
+   neural networks.
+
+3. Describe the method of assessing a classification model&#39;s efficiency in detail. Describe the various
+measurement parameters.
+ans: 
+  accuracy
+  f-score
+  recall
+  precision
+
+4.
+i. In the sense of machine learning models, what is underfitting? What is the most common
+reason for underfitting?
+ans:
+ Having the high bias and low variance.
+ii. What does it mean to overfit? When is it going to happen?
+ans:
+ Having high variance and low bias.
+iii. In the sense of model fitting, explain the bias-variance trade-off.
+ans:
+ BIas --> It means Error in training the model on dataset.
+ Variance --> It means Error in testing the model on test dataset.
+
+5. Is it possible to boost the efficiency of a learning model? If so, please clarify how.
+ans:
+ Yes it is possible,
+ It was done by performing,
+ 1. Hyperparameter Tuning
+ 2. Re training model
+ 3. making the messy data clean
+ 4. Performing feature extracting.
+
+6. How would you rate an unsupervised learning model&#39;s success? What are the most common
+success indicators for an unsupervised learning model?
+ans:
+ Based on the how the clusters will be visualised and how the quality of the cluster makes.
+
+7. Is it possible to use a classification model for numerical data or a regression model for categorical
+data with a classification model? Explain your answer.
+ans:
+ Yes the above two statements are True and possible.
+
+8. Describe the predictive modeling method for numerical values. What distinguishes it from
+categorical predictive modeling?
+ans:
+  Predictive modeling is a method of building a model that can predict an outcome based on certain input 
+  variables. In the case of numerical predictive modeling, the output variable is a continuous numerical 
+  value, and the model is trained to predict this value based on one or more input variables.
+
+9. The following data were collected when using a classification model to predict the malignancy of a
+group of patients&#39; tumors:
+i. Accurate estimates – 15 cancerous, 75 benign
+ii. Wrong predictions – 3 cancerous, 7 benign
+Determine the model&#39;s error rate, Kappa value, sensitivity, precision, and F-measure.
+ans:
+  Error Rate = (FP + FN) / (TP + TN + FP + FN)
+  Error Rate = (7 + 3) / (15 + 75 + 7 + 3) = 0.1 or 10%
+
+  Sensitivity = TP / (TP + FN)
+  Sensitivity = 15 / (15 + 3) = 0.833 or 83.3%
+
+  Precision = TP / (TP + FP)
+  Precision = 15 / (15 + 7) = 0.682 or 68.2%
+
+  F-Measure = 2 * (Precision * Sensitivity) / (Precision + Sensitivity)
+  F-Measure = 2 * (0.682 * 0.833) / (0.682 + 0.833) = 0.75 or 75%
+
+10. Make quick notes on:
+1. The process of holding out
+ans:
+  Holding out refers to setting aside a portion of the available data as a validation or test set.
+  The held-out data is not used during the model training phase to ensure an unbiased evaluation of the model's performance.
+
+2. Cross-validation by tenfold
+ans:
+  Cross-validation is a technique used to assess the performance of a model by splitting the data into multiple subsets or folds.
+  Tenfold cross-validation involves dividing the data into ten equal-sized folds.
+
+3. Adjusting the parameters
+ans:
+  Adjusting the parameters refers to fine-tuning the settings or configurations of a model to optimize its performance.
+  Different models have specific parameters that can be adjusted, such as learning rate, regularization strength, number of
+  hidden layers, etc.
